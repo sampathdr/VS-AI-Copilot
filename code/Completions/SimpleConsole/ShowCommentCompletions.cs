@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Xml.Linq;
 using System.Linq;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Collections.Generic;
+
 
 namespace SimpleConsole {
 	internal class ShowCommentCompletions {

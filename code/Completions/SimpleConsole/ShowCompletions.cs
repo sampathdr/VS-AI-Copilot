@@ -3,7 +3,7 @@
 	internal class ShowCompletions {
 
 		public void DemoA() {
-			List<string> list = new List<string>();
+
 		}
 
 		public void DemoB() {

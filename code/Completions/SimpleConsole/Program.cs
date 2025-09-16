@@ -5,7 +5,9 @@
 		private static async Task Main(string[] args) {
 			Console.WriteLine("Hello, World!");
 
-			Console.WriteLine(await ShowIntellicode.GetWeather());
+			//	Console.WriteLine(await ShowIntellicode.GetWeather());
+
+			ShowCommentCompletions.GetXmlContent();
 		}
 
 	}

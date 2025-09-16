@@ -1,4 +1,5 @@
-﻿namespace SimpleConsole {
+﻿using System;
+namespace SimpleConsole {
 
 	internal class Program {
 

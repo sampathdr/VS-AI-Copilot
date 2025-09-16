@@ -15,9 +15,6 @@ namespace SimpleConsole {
 			// get color-name attribute value, hex value, use camel case for property names
 
 
-
-
-
 		}
 
 		public void XmlDone() {

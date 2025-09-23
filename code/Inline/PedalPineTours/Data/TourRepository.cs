@@ -99,8 +99,9 @@ namespace RazorSimple.Data {
 								IsActive = true,
 								CreatedAt = DateTime.Now.AddDays(-10)
 						}
-				};
 
+				};
+		
 		public List<Tour> GetAllTours() {
 			return _tours;
 		}

@@ -6,110 +6,110 @@ namespace RazorSimple.Data
     {
         private static List<Testimonial> _testimonials = new List<Testimonial>
         {
-            new Testimonial
-            {
-                Id = 1,
-                TourId = 1,
-                CustomerName = "John Smith",
-                CustomerCity = "San Francisco",
-                CustomerCountry = "USA",
-                Review = "Amazing mountain trail experience! The views were absolutely breathtaking and our guide was knowledgeable and friendly. The challenging terrain was exactly what I was looking for. Highly recommend this tour to anyone seeking adventure.",
-                Rating = 5,
-                ReviewDate = DateTime.Now.AddDays(-15),
-                IsApproved = true,
-                IsFeatured = true
-            },
-            new Testimonial
-            {
-                Id = 2,
-                TourId = 2,
-                CustomerName = "Emily Johnson",
-                CustomerCity = "Seattle",
-                CustomerCountry = "USA",
-                Review = "Perfect coastal ride for beginners! The pace was comfortable and the ocean views were stunning. Great way to spend a weekend. The bike rental was in excellent condition and the route was well-planned.",
-                Rating = 4,
-                ReviewDate = DateTime.Now.AddDays(-8),
-                IsApproved = true,
-                IsFeatured = false
-            },
-            new Testimonial
-            {
-                Id = 3,
-                TourId = 1,
-                CustomerName = "Michael Brown",
-                CustomerCity = "Austin",
-                CustomerCountry = "USA",
-                Review = "Challenging and rewarding! As an experienced cyclist, I appreciated the difficulty level and the stunning mountain scenery. The tour was well-organized and safety was clearly a priority.",
-                Rating = 5,
-                ReviewDate = DateTime.Now.AddDays(-22),
-                IsApproved = true,
-                IsFeatured = true
-            },
-            new Testimonial
-            {
-                Id = 4,
-                TourId = 3,
-                CustomerName = "Sarah Davis",
-                CustomerCity = "Portland",
-                CustomerCountry = "USA",
-                Review = "The desert adventure was incredible! I never expected the desert to be so beautiful. The wildlife spotting was a bonus and our guide shared fascinating insights about the ecosystem. A truly unique experience.",
-                Rating = 5,
-                ReviewDate = DateTime.Now.AddDays(-5),
-                IsApproved = true,
-                IsFeatured = true
-            },
-            new Testimonial
-            {
-                Id = 5,
-                TourId = 4,
-                CustomerName = "David Wilson",
-                CustomerCity = "Denver",
-                CustomerCountry = "USA",
-                Review = "Countryside tour exceeded expectations! The combination of cycling through beautiful farmlands and local food tastings was perfect. Great for couples or anyone who enjoys both cycling and local cuisine.",
-                Rating = 4,
-                ReviewDate = DateTime.Now.AddDays(-12),
-                IsApproved = true,
-                IsFeatured = false
-            },
-            new Testimonial
-            {
-                Id = 6,
-                TourId = 5,
-                CustomerName = "Lisa Garcia",
-                CustomerCity = "Phoenix",
-                CustomerCountry = "USA",
-                Review = "Great urban exploration! Discovered parts of Portland I never knew existed. The tour was informative and fun, perfect for locals and visitors alike. Highly recommend for a different perspective of the city.",
-                Rating = 4,
-                ReviewDate = DateTime.Now.AddDays(-3),
-                IsApproved = true,
-                IsFeatured = false
-            },
-            new Testimonial
-            {
-                Id = 7,
-                TourId = 2,
-                CustomerName = "Robert Taylor",
-                CustomerCity = "Los Angeles",
-                CustomerCountry = "USA",
-                Review = "Relaxing coastal ride with beautiful scenery. The route was well-planned and the group size was perfect. The guide was friendly and accommodating to different skill levels.",
-                Rating = 4,
-                ReviewDate = DateTime.Now.AddDays(-18),
-                IsApproved = true,
-                IsFeatured = false
-            },
-            new Testimonial
-            {
-                Id = 8,
-                TourId = 3,
-                CustomerName = "Jennifer Martinez",
-                CustomerCity = "San Diego",
-                CustomerCountry = "USA",
-                Review = "The desert tour was challenging but absolutely worth it! The landscapes were otherworldly and the physical challenge was exactly what I needed. Our guide was excellent and very safety-conscious.",
-                Rating = 5,
-                ReviewDate = DateTime.Now.AddDays(-7),
-                IsApproved = true,
-                IsFeatured = true
-            }
+      new Testimonial
+      {
+				Id = 1,
+				TourId = 1,
+				CustomerName = "John Smith",
+				CustomerCity = "San Francisco",
+				CustomerCountry = "USA",
+				Review = "Amazing mountain trail experience! The views were absolutely breathtaking and our guide was knowledgeable and friendly. The challenging terrain was exactly what I was looking for. Highly recommend this tour to anyone seeking adventure.",
+				Rating = 5,
+				ReviewDate = DateTime.Now.AddDays(-15),
+				IsApproved = true,
+				IsFeatured = true
+      },
+      new Testimonial
+      {
+			Id = 2,
+      TourId = 2,
+      CustomerName = "Emily Johnson",
+      CustomerCity = "Seattle",
+      CustomerCountry = "USA",
+      Review = "Perfect coastal ride for beginners! The pace was comfortable and the ocean views were stunning. Great way to spend a weekend. The bike rental was in excellent condition and the route was well-planned.",
+      Rating = 4,
+      ReviewDate = DateTime.Now.AddDays(-8),
+      IsApproved = true,
+			IsFeatured = false
+      },
+      new Testimonial
+      {
+        Id = 3,
+        TourId = 1,
+        CustomerName = "Michael Brown",
+        CustomerCity = "Austin",
+        CustomerCountry = "USA",
+        Review = "Challenging and rewarding! As an experienced cyclist, I appreciated the difficulty level and the stunning mountain scenery. The tour was well-organized and safety was clearly a priority.",
+        Rating = 5,
+        ReviewDate = DateTime.Now.AddDays(-22),
+        IsApproved = true,
+        IsFeatured = true
+      },
+      new Testimonial
+      {
+				Id = 4,
+				TourId = 3,
+				CustomerName = "Sarah Davis",
+				CustomerCity = "Portland",
+				CustomerCountry = "USA",
+				Review = "The desert adventure was incredible! I never expected the desert to be so beautiful. The wildlife spotting was a bonus and our guide shared fascinating insights about the ecosystem. A truly unique experience.",
+				Rating = 5,
+				ReviewDate = DateTime.Now.AddDays(-5),
+				IsApproved = true,
+				IsFeatured = true
+      },
+      new Testimonial
+      {
+        Id = 5,
+        TourId = 4,
+        CustomerName = "David Wilson",
+        CustomerCity = "Denver",
+        CustomerCountry = "USA",
+        Review = "Countryside tour exceeded expectations! The combination of cycling through beautiful farmlands and local food tastings was perfect. Great for couples or anyone who enjoys both cycling and local cuisine.",
+        Rating = 4,
+        ReviewDate = DateTime.Now.AddDays(-12),
+        IsApproved = true,
+        IsFeatured = false
+      },
+      new Testimonial
+      {
+        Id = 6,
+        TourId = 5,
+        CustomerName = "Lisa Garcia",
+        CustomerCity = "Phoenix",
+        CustomerCountry = "USA",
+        Review = "Great urban exploration! Discovered parts of Portland I never knew existed. The tour was informative and fun, perfect for locals and visitors alike. Highly recommend for a different perspective of the city.",
+        Rating = 4,
+        ReviewDate = DateTime.Now.AddDays(-3),
+        IsApproved = true,
+        IsFeatured = false
+      },
+      new Testimonial
+      {
+        Id = 7,
+        TourId = 2,
+        CustomerName = "Robert Taylor",
+        CustomerCity = "Los Angeles",
+        CustomerCountry = "USA",
+        Review = "Relaxing coastal ride with beautiful scenery. The route was well-planned and the group size was perfect. The guide was friendly and accommodating to different skill levels.",
+        Rating = 4,
+        ReviewDate = DateTime.Now.AddDays(-18),
+        IsApproved = true,
+        IsFeatured = false
+      },
+      new Testimonial
+      {
+        Id = 8,
+        TourId = 3,
+        CustomerName = "Jennifer Martinez",
+        CustomerCity = "San Diego",
+        CustomerCountry = "USA",
+        Review = "The desert tour was challenging but absolutely worth it! The landscapes were otherworldly and the physical challenge was exactly what I needed. Our guide was excellent and very safety-conscious.",
+        Rating = 5,
+        ReviewDate = DateTime.Now.AddDays(-7),
+        IsApproved = true,
+        IsFeatured = true
+      }
         };
 
         public List<Testimonial> GetAllTestimonials()

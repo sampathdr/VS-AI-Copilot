@@ -13,20 +13,20 @@ namespace VisualizerQuery {
 
 		public IEnumerable<WebColor> GetGreenColors() {
 			var colors = ColorSource.WebColors;
-			var q = colors
+			var greens = colors
 				.Where(color=>color.ColorFamily== ColorFamily.Green)
 				.Where(color => color.GreenPercent > .5)
 				.OrderBy(color => color.ColorName)
 				.Select(color => color);
 
-			return q.ToList();
+			return greens.ToList();
 		}
 
 		public IEnumerable<WebColor> GetLowSaturationColors() {
 			var colors = ColorSource.WebColors;
 
-			var reds = colors.Where(x => x.HSL.Saturation < 16);
-			return reds.ToList();
+			var lowSats = colors.Where(x => x.HSL.Saturation < 16);
+			return lowSats.ToList();
 		}
 		//.Select(color => new { ColorName = color.ColorName, GreenPercent = color.GreenPercent })
 

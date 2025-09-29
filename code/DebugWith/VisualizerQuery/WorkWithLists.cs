@@ -9,8 +9,6 @@ using System.Threading.Tasks;
 namespace VisualizerQuery {
 	internal class WorkWithLists {
 
-
-
 		public IEnumerable<dynamic> GetGreenColors() {
 			var colors = ColorSource.WebColors;
 			var greens = colors
@@ -28,7 +26,6 @@ namespace VisualizerQuery {
 			var lowSats = colors.Where(x => x.HSL.Saturation < 16);
 			return lowSats.ToList();
 		}
-		//.Select(color => new { ColorName = color.ColorName, GreenPercent = color.GreenPercent })
 
 	}
 }

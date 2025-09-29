@@ -20,7 +20,7 @@
 		static void TrySaturation() {
 			Console.WriteLine("SaturatedColors:");
 			var worker = new WorkWithLists();
-			var colors = worker.GetSat();
+			var colors = worker.GetLowSaturationColors();
 			foreach (var color in colors)
 			{
 				Console.WriteLine($"  {color.ColorName}: {color.HSL.Saturation:P0}");

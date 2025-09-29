@@ -11,13 +11,13 @@ namespace VisualizerQuery {
 
 
 
-		public IEnumerable<WebColor> GetGreenColors() {
+		public IEnumerable<dynamic> GetGreenColors() {
 			var colors = ColorSource.WebColors;
 			var greens = colors
 				.Where(color=>color.ColorFamily== ColorFamily.Green)
 				.Where(color => color.GreenPercent > .5)
 				.OrderBy(color => color.ColorName)
-				.Select(color => color);
+				.Select(color=>new { ColorName = color.ColorName, GreenPercent = color.GreenPercent});
 
 			return greens.ToList();
 		}

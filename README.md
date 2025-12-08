@@ -1,14 +1,14 @@
 # AI Development: GitHub Copilot and Visual Studio
 ### Explore AI tools that help you write code faster and with less effort.
 This is the repository for the LinkedIn Learning course *AI Development: GitHub Copilot and Visual Studio*. The full course is available from [LinkedIn Learning][lil-course-url].
-![banner](https://github.com/LearnItLabs/SiteAssets/blob/78fc8d3e6156de51b8c8cbff35e1e60e7b53b7b9/GitHubBanner.png)
+![banner](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fai-powered-development-github-copilot-in-visual-studio%3Ftrk%3Dshare_ent_url%26shareId%3DnOEZ8tWdT%252BSUXMxcpijMVg%253D%253D)
 
 ### Description
-In this course, we’re exploring a technology that’s reshaping how we build software: AI in Visual Studio.
+In this course, weâ€™re exploring a technology thatâ€™s reshaping how we build software: AI in Visual Studio.
 
-There are many AI-powered tools available, but most of the features you’ll use in Visual Studio today come from GitHub Copilot.
+There are many AI-powered tools available, but most of the features youâ€™ll use in Visual Studio today come from GitHub Copilot.
 
-GitHub Copilot is transforming the way developers write code. But with so many capabilities packed in, it’s easy to miss what’s possible — especially when you combine the strengths of GitHub and Visual Studio. That’s exactly what this course is designed to help you discover.
+GitHub Copilot is transforming the way developers write code. But with so many capabilities packed in, itâ€™s easy to miss whatâ€™s possible â€” especially when you combine the strengths of GitHub and Visual Studio. Thatâ€™s exactly what this course is designed to help you discover.
 
 ## Instructions
 This repository contains example code for most of the videos in the course.

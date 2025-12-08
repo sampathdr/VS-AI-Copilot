@@ -27,7 +27,7 @@ Learn-it Labs is a boutique video training company based in the Seattle area. Fo
 
 Check out Walt's [other courses](https://www.linkedin.com/learning/instructors/walt-ritscher) on LinkedIn Learning.  Follow on [LinkedIn](https://www.linkedin.com/in/waltritscher/?trk=lil_course) and [Twitter](https://twitter.com/waltritscher). 
 
-![Advanced C#: Functional Programming Patterns][lil-thumbnail-url] 
+
 
 [lil-course-url]: https://www.linkedin.com/learning/advanced-c-sharp-functional-programming-patterns
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2833002/2833002-1596810241957-16x9.jpg
+

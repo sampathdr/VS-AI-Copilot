@@ -25,9 +25,9 @@ When you are ready to [learn more about .NET](https://www.linkedin.com/learning/
 ## About the Instructor - Walt Ritscher
 Learn-it Labs is a boutique video training company based in the Seattle area. Founded by Walt Ritscher, a long-time LinkedIn Learning staff instructor, Learn-it Labs is dedicated to creating world-class, video-based courses on a wide range of technology topics.
 
-Check out Walt's [other courses](https://www.linkedin.com/learning/instructors/walt-ritscher) on LinkedIn Learning.  Follow on [LinkedIn](https://www.linkedin.com/in/waltritscher/?trk=lil_course) and [Twitter](https://twitter.com/waltritscher). 
+Check out Walt's [other courses](https://www.linkedin.com/learning/instructors/walt-ritscher) on LinkedIn Learning.  Follow on [LinkedIn](https://www.linkedin.com/in/waltritscher/?trk=lil_course) and [BlueSky](https://bsky.app/profile/waltritscher.bsky.social). 
 
 
 
-[lil-course-url]: https://www.linkedin.com/learning/advanced-c-sharp-functional-programming-patterns
+[lil-course-url]: https://www.linkedin.com/learning/ai-powered-development-github-copilot-in-visual-studio/
 

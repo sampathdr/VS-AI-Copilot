@@ -15,10 +15,19 @@ namespace SimpleConsole {
 			// Load color data from an XML file and extract relevant elements
 			XDocument doc = XDocument.Load(fullPath);
 
-			// get color-name attribute value, hex value, use camel case for property names
+            // get color-name attribute value, hex value, use camel case for property names
+			var colors = from color in doc.Descendants("Color")
+						 select new
+						 {
+							 ColorName = (string)color.Attribute("color-name"),
+							 HexValue = (string)color.Element("Hex"),
+						 };
 
-
-		}
+			foreach (var color in colors)
+			{
+				Console.WriteLine($"{color.ColorName}: {color.HexValue}");
+            }
+        }
 
 		public void XmlDone() {
 			//string path = Environment.CurrentDirectory;
